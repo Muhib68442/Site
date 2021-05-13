@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #171717;
+}
+.title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+}
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.no{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    font-family: monospace;
+    padding: 10px;
+}

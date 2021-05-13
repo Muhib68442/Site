@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1000px;
+    background-color: bisque;
+}
+header{
+    height:100px;
+}
+div img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 7px;
+    float: left;
+    margin: 7px 7px;
+    transition: 0.3s;
+}
+div img:hover{
+    height: 160px;
+    width: 160px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.bio{
+    float: left;
+    padding: 20px;
+}
+.contact{
+    float: right;
+    padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.contact a:hover{
+    
+    border: 1px solid rgba(0, 0, 255, 0.459);
+    border-radius: 4px;
+    color: blue;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.common-line{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: sans-serif;
+}
+.edu-temp-left{
+    width:45%;
+    float: left;
+}
+.edu-temp-left{
+    width:45%;
+    float: left;
+}
+.bottom-container{
+    background-color: #171711;
+    text-align: center;
+    padding: 20px;
+
+    
+}
+.bottom-container a{
+    color: rgba(255, 131, 127, 0.692);
+    text-decoration: none;
+    font-size: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #171711;
+}
